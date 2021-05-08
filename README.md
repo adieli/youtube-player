@@ -20,7 +20,7 @@ From server directory, please run:
 ```
 node index.js
 ```
-
+The server runs from port 8000.
 ## Starting client app
 
 ### Compiles and hot-reloads for development
@@ -38,6 +38,8 @@ You will also see any lint errors in the console.
 ```
 yarn build
 ```
+
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
