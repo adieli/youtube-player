@@ -1,0 +1,11 @@
+{
+  "name": "youtube-player-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34"
+  }
+}

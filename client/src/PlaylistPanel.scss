@@ -1,0 +1,12 @@
+.playlist-container{
+    max-width: 650px;
+    min-width: 450px;
+    .action-container {
+        display: flex;
+        padding: 20px;
+        .add-button {
+            max-height: 40px;
+            margin-left: 20px;
+        }
+    }
+}
