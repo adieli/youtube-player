@@ -13,6 +13,7 @@ so that a user will be able to remove a certain video or reorder the playlist.
 * Another edge case which I didn't want to dive into, under the time constraint, is focus on the currently playing video.
 
 The reason is that it's possible that the currently playing video was already removed from the playlist in the server, and I didn't want to display it in the UI and maintain two states.
+* In a productionized project that requires more work and parsing of backend requests, I'd add that in a separate file in the api folder, but due to the insignificance in such a project, it was left in app.js
 * The solution was tested in multiple tabs of the same browser (Chrome) and worked well in terms of auto-play, addition and removal of songs.
 
 
