@@ -17,7 +17,9 @@ yarn install
 ## Starting server
 From server directory, please run: 
 
-### `node index.js`
+```
+node index.js
+```
 
 ## Starting client app
 
